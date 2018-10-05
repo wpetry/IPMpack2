@@ -1,7 +1,7 @@
 Package: IPMpack2
 Type: Package
 Title: Builds and analyses Integral Projection Models (IPMs).
-Version: 2.1-wkp0.1
+Version: 2.1-0
 Date: 2018-2-1
 Author: CJE Metcalf, SM McMahon, R Salguero-Gomez, E Jongejans, C Merow
 Maintainer: William Petry <wpetry@gmail.com>
