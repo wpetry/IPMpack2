@@ -107,6 +107,14 @@ setClass("growthObjPois",
 setClass("growthObjNegBin",
     representation(fit = "list"))
 
+# Create a generic growth object containing an nls
+setClass("growthObjNLS",
+    representation(fit = "nls"))
+
+# Create a generic growth object containing an nls with changing variance
+setClass("growthObjNLSChangeVar",
+         representation(fit = "nlme"))
+
 ## SURVIVAL OBJECTS ##
 # Create a generic survival object
 setClass("survObj",
