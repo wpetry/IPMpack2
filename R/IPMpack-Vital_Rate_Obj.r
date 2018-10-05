@@ -316,7 +316,7 @@ makeOffspringObj <- function(dataf=NULL,
 # Returns - a Hossfeld growth object
 
 #no covariate, and one polynom, linear regression
-makegrowthObjHossfeld <- function(dataf) {  
+makeGrowthObjHossfeld <- function(dataf) {  
 
 	#subset data to include only growth of individuals
 	dataf<-subset(dataf,is.na(dataf$size)==FALSE&is.na(dataf$sizeNext)==FALSE)
